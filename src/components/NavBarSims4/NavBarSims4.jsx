@@ -90,7 +90,9 @@ const NavbarSims4 = () => {
           </div>
         </div>
       </div>
-      <div className={`${styles.navBarSims4Dos} ${isScrolled ? styles.fixed : ""}`}>
+      <div
+        className={`${styles.navBarSims4Dos} ${isScrolled ? styles.fixed : ""}`}
+      >
         <img
           src={logoSims4Color}
           className={styles.logoSims4}
@@ -174,4 +176,4 @@ const NavbarSims4 = () => {
   );
 };
 
-export default NavbarSims4;
+export default { NavbarSims4 };
