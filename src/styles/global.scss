@@ -1,0 +1,45 @@
+@import url(https://db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
+
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.compraAhora {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20%;
+  gap: var(--spacing-md);
+}
+
+.navbar-container {
+  height: 100px;
+}
+
+h1 {
+  font-family: var(--font-family-ea);
+  font-size: var(--h3-tittle-font-size-xxl);
+  color: var(--color-sextary);
+  margin-bottom: 25px;
+}
+
+.h1{
+  margin-bottom: var(--spacing-xs);
+}
+

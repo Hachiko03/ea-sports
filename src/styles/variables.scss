@@ -1,0 +1,71 @@
+@import url(https://db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
+
+:root {
+
+  --spacing-xl: 150px;
+  --spacing-lg: 100px;
+  --spacing-md: 50px;
+  --spacing-sm: 25px;
+  --spacing-xs: 10px;
+
+  --padding-m: 24px;
+
+  --spacing-sm-boton: 16px 24px;
+
+  --color-primario: rgb(59, 120, 85);
+  --color-primario-disabled: rgb(59, 120, 85, 0.5);
+  --color-secundario: rgb(59, 120, 85);
+  --color-secundario-disabled: rgb(59, 120, 85, 0.5);
+
+  --text-color: white;
+  --text-color-boton: #161616;
+
+  --border: 1px solid var(--color-sextary);
+  --border-radius-sm: 5px;
+  --border-radius-xs: 3px;
+  --border-grosor: 2px;
+  --gap:15px;
+
+  --color-prymary: #ff1e3c;
+  --color-secundary: #ff4747;
+  --color-tertiary: #551a8b;
+  --color-quaternary: #ffffff;
+  --color-quinary: #f3f3f3;
+  --color-sextary: #000000;
+  --color-septenary: #16161680;
+  --color-octave: #eaeaea;
+  --color-sin-variable: #6fb0d6;
+  --color-botondorado: #A38D5E;
+
+  --color-botonprimario: white;
+  --color-botonsecundario: rgb(0, 152, 237);
+  --color-botonsecundariodark: rgba(255, 255, 255, 0);
+  --color-botonsecundariolight: rgb(255, 255, 255, 0);
+
+  --color-gradient1: rgba(0, 0, 255, 0.496);
+  --color-gradient2: rgba(255, 0, 0, 0.496);
+  --color-background-card-destacada: rgba(37, 37, 37, 0.375);
+
+  --h3-tittle-font-size-xxl:40px;
+  --font-size-xl:24px;
+  --font-size-l:18px;
+  --font-size-m:16px;
+  --font-size-s:14px;
+  --font-size-xs:13px;
+
+  --font-weith-l:900;
+  --font-weith-xm-h3:700;
+  --font-weith-m:600;
+  --font-weith-s:400;
+
+  --font-family-ea: "ElectronicArtsText", "DM Sans", "Verdana", "Helvetica", "Arial",
+    sans-serif;
+  --font-style-eaaa: "Electronic Arts Text";
+  --font-style-arial: Arial;
+  --font-style-helvetica: Helvetica;
+  --font-style-sans: sans-serif;
+  --font-style-verdana: verdana;
+
+  --ea-boton-expansion: 0.1s;
+  --ea-transition-duration: 0.5s;
+}
